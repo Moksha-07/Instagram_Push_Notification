@@ -6,7 +6,7 @@
 
 *instagram-push-notification/*
 
-│
+
 ├──*static/*
 
    └── *firebase-messaging-sw.js*   # Firebase Service Worker (background listener)
