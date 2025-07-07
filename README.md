@@ -13,7 +13,7 @@
 
 ├──*Templates/*
 
-  ├── index.html   # Main page with permission request
+  └── index.html   # Main page with permission request
    
   └── default-icon.png           # Notification icon shown in browser
 
@@ -22,6 +22,7 @@
 ├── *app.py*                        # Flask app that serves the frontend
 
 ## ⚙️ How It Works
+
 *On the User Side (Frontend):*
 
 *The browser loads index.html.*
@@ -40,6 +41,7 @@
 *The user receives a browser notification (like Instagram).*
 
 ## 🛠️ Setup Instructions
+
 ## 🔑 1. Firebase Setup
 
 *Create a Firebase project at https://console.firebase.google.com*
@@ -77,6 +79,7 @@ python send_notification.py
 
 
 ## 🔔 Features
+
 *Simple push notification using Firebase*
 
 *Notification icon (default-icon.png)*
@@ -88,6 +91,7 @@ python send_notification.py
 *Works on modern browsers (Chrome, Firefox)*
 
 ## 📦 Requirements
+
 *Python 3.7+*
 
 *Flask*
@@ -96,7 +100,8 @@ python send_notification.py
 
 *Internet connection*
 
-✅ Example Notification
+## ✅ Example Notification
+
 *Title: New Message*
 
 *Body: User 1 liked your post*
