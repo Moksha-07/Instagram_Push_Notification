@@ -7,17 +7,18 @@
 *instagram-push-notification/*
 
 │
-├── *static/*
+├──*static/*
 
-  └── *firebase-messaging-sw.js*   # Firebase Service Worker (background listener)
+   └── *firebase-messaging-sw.js*   # Firebase Service Worker (background listener)
 
-├── *Templates/*
+├──*Templates/*
 
   ├── index.html   # Main page with permission request
-  
+   
   └── default-icon.png           # Notification icon shown in browser
-│
+
 ├── *send_notification.py*          # Script to trigger/send a notification
+
 ├── *app.py*                        # Flask app that serves the frontend
 
 ## ⚙️ How It Works
